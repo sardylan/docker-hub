@@ -9,4 +9,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag 14-chromium-${GITHUB_SHA::8} --tag 14-chromium-latest
+      run: docker build ./nodejs/14-chromium --file Dockerfile --tag 14-chromium-${GITHUB_SHA::8} --tag 14-chromium-latest
