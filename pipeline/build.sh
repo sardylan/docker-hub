@@ -2,6 +2,6 @@
 
 docker \
     build \
-    --tag sardylan/pipeline:2 \
+    --tag sardylan/pipeline:3 \
     .
 

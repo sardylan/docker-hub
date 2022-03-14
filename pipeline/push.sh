@@ -2,5 +2,5 @@
 
 docker \
     push \
-    sardylan/pipeline:2
+    sardylan/pipeline:3
 
